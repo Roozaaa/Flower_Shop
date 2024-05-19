@@ -43,6 +43,7 @@ header {
 }
 
 .primary_button {
+    cursor: pointer;
     margin-left: 140px;
     padding: 20px 43px;
     background-color: #e55473;
@@ -274,6 +275,7 @@ header {
     display: flex;
     justify-content: space-between;
     gap: 200px;
+    margin-bottom: 128px;
 }
 
 .offer-content>h1 {
@@ -312,6 +314,7 @@ span {
 }
 
 .offer-content>.primary_button {
+    cursor: pointer;
     position: relative;
     top: 230px;
     left: 47%;
@@ -330,5 +333,200 @@ span {
 }
 
 /* Intagram showcase ----------------------->*/
+.insta-content {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.insta-content>h1 {
+    width: 400px;
+    /* position: relative; */
+    font-size: 40px;
+    font-weight: 800;
+    font-family: Lato;
+    color: #272727;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    margin-bottom: 24px;
+}
+
+.insta-content>p {
+    width: 594px;
+    position: relative;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: Lato;
+    color: rgba(39, 39, 39, 0.6);
+    text-align: center;
+    display: inline-block;
+    padding-bottom: 48px;
+}
+
+.insta-wrapper {
+    margin-left: 140px;
+    margin-right: 140px;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.inta-wrap-1>img {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    height: 400px;
+    object-fit: contain;
+}
+
+.inta-wrap-2>img {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    height: 400px;
+    object-fit: contain;
+}
+
+.inta-wrap-3>img {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    height: 400px;
+    object-fit: contain;
+}
+
+.inta-wrap-4>img {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    height: 400px;
+    object-fit: contain;
+}
+
+/* Subscription section ----------------------->*/
+
+.subscribe {
+    margin-top: 128px;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-bottom: 128px;
+    background-image: url("../Flower Asset/Rectangle 9.png");
+    object-fit: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+
+    width: 1240px;
+    position: relative;
+    border-radius: 8px;
+    max-width: 100%;
+    overflow: hidden;
+    height: 449px;
+    /* object-fit: cover; */
+    background-size: contain;
+}
+
+.subcribe-content {
+    text-align: center;
+    position: relative;
+    top: 122px;
+}
+
+.subcribe-content>h1 {
+    width: 373px;
+    position: relative;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: Lato;
+    color: #272727;
+    text-align: center;
+    display: inline-block;
+}
+
+.subcribe-content>p {
+    width: 231px;
+    position: relative;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: Lato;
+    color: rgba(39, 39, 39, 0.6);
+    text-align: center;
+    display: inline-block;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+    font-size: 16px;
+    /* gap: 5px; */
+    margin-left: 28px;
+}
+
+input {
+    width: 650px;
+    position: relative;
+    top: 140px;
+    left: 200px;
+    border-radius: 8px;
+    background-color: #fff;
+    border-color: transparent;
+    height: 40px;
+}
+
+
+.form>button {
+    cursor: pointer;
+    padding-left: 31px;
+    position: relative;
+    top: 140px;
+    right: 200px;
+    width: 150px;
+    height: 40px;
+    align-items: center;
+    justify-items: center;
+    align-items: center;
+}
 
 /* Main Section ended */
+
+/* Footer Section started */
+footer {
+    width: 100%;
+    position: relative;
+    background-color: #111010;
+    height: 449px;
+    text-align: center;
+}
+
+footer>h1 {
+    color: #fff;
+    padding-top: 128px;
+}
+
+footer>.close {
+    padding-top: 24px;
+    width: 625px;
+    position: relative;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: Lato;
+    color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    display: inline-block;
+}
+
+footer>.credit {
+    padding-top: 32px;
+    width: 355px;
+    position: relative;
+    font-size: 16px;
+    font-family: Lato;
+    color: rgba(255, 255, 255, 0.4);
+    text-align: center;
+    display: inline-block;
+}
+
+/* Footer Section ended */
